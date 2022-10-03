@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap');
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+html {
+    scroll-behavior: smooth; /*scrollea suave */
+}
+body{
+    font-family:  'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.971);
+    font-size: 16px;
+    font-weight: 200;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content:space-between ;
+    align-items:center ; /*centra en un contenedor*/
+    height: 75px;
+    margin: auto;
+    padding: 16px;
+    background-color: #B7C4CF;
+}
+    header a img {
+        width: 60px;
+        vertical-align: middle;  /* centra dentro de una celda al medio  */
+        margin-right: 16px; /*pensar las separaciones,para separar la imagen de la palabra   */
+    }
+    header a {
+        color: #707070;
+        font-weight: 600; /*para el titulo */
+    }
+
+    header nav a {
+        /*separacion para las palabras se puede usar padding o margin left*/
+        margin-left: 24px;
+        padding: 12px; /* agranda el area de clic y mejora la experiencia*/
+        
+    
+    }
+.inicio {
+    background-color: #EEE3CB;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px 36px 0px 36px;
+}
+    .inicio img{
+        width: 300px;
+        height: 300px;
+        border-radius: 12px;
+    }
+
+    .inicio div {
+        width: 400px;
+        background-color: #D9D9D9;
+        padding: 16px;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    .inicio p {
+        margin-top: 8px;
+    }
+
