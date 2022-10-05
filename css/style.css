@@ -127,7 +127,7 @@ main{
         padding: 100px;
     }
 
-    #reglas article{
+    #titulo {
         background: #D7C0AE;
         width: 700px;
        display: flex;
@@ -136,7 +136,7 @@ main{
                
     }
 
-    #reglas article img{
+    #titulo img{
         width: 200px;
         height: 200px;
         position: relative;
@@ -145,15 +145,72 @@ main{
         border-radius: 12px;
     }
 
-    #reglas article div{
+    #titulo div{
         text-align: center;
         padding: 20px;
     }
 
-    #reglas article div h2 {
+    #titulo div h2 {
         font-size: 50px;
         margin-bottom: 16px;
     }
 
+    .lasreglas{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; /* para respetar el tamaño del contido que se envuelve */
+            
+       
+    }
 
-   
+    .lasreglas article {
+        background-color: #D7C0AE ;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 8px;
+    }
+
+    .lasreglas img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #asociate {
+        background-image: url(../img/forms.jpg);
+        background-size: cover;
+    }
+
+    #formulario {
+        background-color: rgba(255, 255, 255, 0.576);
+        width: 1000px;
+        margin: auto;
+        padding: 60px;
+        display: flex;
+        border-radius: 12px;
+        justify-content: space-between;
+    }
+
+    #formulario form{
+        width: 550px;
+    }
+    #asociate div{
+        width: 250px;
+        background-color: #F4F4F4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 2; /* multiplica el espacio de las lineas x2*/
+        border-radius: 12px;
+        border: #F4F4F4 solid;
+    }
+
+    #asociate div img{
+        width: 72px;
+        height: 72px;
+        border: 1px solid #707070;
+        border-radius: 36px;
+        padding: 8px ;
+        margin-top: 8px;
+    }
