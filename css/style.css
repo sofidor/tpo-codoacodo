@@ -28,9 +28,10 @@ header{
     background-color: #B7C4CF;
 }
     header a img {
-        width: 60px;
+        width: 200px;
         vertical-align: middle;  /* centra dentro de una celda al medio  */
-        margin-right: 16px; /*pensar las separaciones,para separar la imagen de la palabra   */
+        margin-right: 2px; /*pensar las separaciones,para separar la imagen de la palabra   */
+        padding: 25px;
     }
     header a {
         color: #707070;
@@ -40,30 +41,31 @@ header{
     header nav a {
         /*separacion para las palabras se puede usar padding o margin left*/
         margin-left: 24px;
-        padding: 12px; /* agranda el area de clic y mejora la experiencia*/
+        padding: 15px; /* agranda el area de clic y mejora la experiencia*/
         
     
     }
-.inicio {
+.inicio {    
     background-color: #EEE3CB;
     min-height: 500px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 36px 36px 0px 36px;
+   
 }
     .inicio img{
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
         border-radius: 12px;
     }
 
     .inicio div {
-        width: 400px;
+        width: 600px;        
         background-color: #D9D9D9;
         padding: 16px;
         border-radius: 12px;
-        text-align: center;
+        text-align: center;        
     }
 
     .inicio p {
@@ -87,7 +89,6 @@ main{
         margin-bottom: 16px;;
         border-radius: 12px;
         padding: 8px;
-
     }
    
 
@@ -116,11 +117,7 @@ main{
         font-weight: 200 ;
         margin: 20px 20px;
         font-weight: 200;
-    }
-
-    #menu{
-        height: 500px;
-    }
+    }    
 
     #reglas {
         background: #D9D9D9;
@@ -159,8 +156,7 @@ main{
         margin-top: 40px;
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap; /* para respetar el tamaño del contido que se envuelve */
-            
+        flex-wrap: wrap; /* para respetar el tamaño del contido que se envuelve */            
        
     }
 
@@ -194,7 +190,36 @@ main{
 
     #formulario form{
         width: 550px;
+        gap: 20px;
     }
+    label {
+        display:inline-block;
+        width: 300px;
+    }
+    .border{   
+        border:2px;     
+    }  
+    
+    label, input {
+        text-transform:uppercase;
+        margin: 2px;
+    }
+
+    #another{
+        outline: none;
+        padding: 2px;
+        text-align: center;
+        border: none;
+    }
+    
+    #another:invalid {
+    border-bottom: 1px solid lightcoral;    
+    }
+    
+    #another:valid {
+    border-bottom: 1px solid lightseagreen;
+    }
+    
     #asociate div{
         width: 250px;
         background-color: #F4F4F4;
@@ -214,3 +239,51 @@ main{
         padding: 8px ;
         margin-top: 8px;
     }
+
+    #menu{
+        background-image: url(../img/fondoMenu.jpg);
+        background-size: cover;   
+        padding: 40px 40px;     
+    }
+    #menu h2{
+        background: #d9d9d9;
+        font-size: 50px;
+        width: 100%;       
+        margin-bottom: 16px;
+        border-radius: 12px;        
+        display: flex;
+        justify-content: center;
+    }
+    #subMenu h4{
+        background: #d9d9d9;
+        font-size: 30px;
+        padding: 10px 10px 10px 10px;        
+        margin-bottom: 16px;;
+        border-radius: 12px;        
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+    #subMenu p{
+        font-size: 20px;
+        width: 500px;
+        height: 50px;                     
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+    #subMenu{
+        background-color: rgba(255, 255, 255, 0.576);
+        width: 800px;
+        margin: auto;
+        padding: 60px;
+        display: flex;
+        border-radius: 12px;
+        justify-content: space-between;  
+        display: grid;
+        text-align: center;
+        justify-content: center;     
+    }
+
+   
+    

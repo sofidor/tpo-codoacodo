@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/jpg" href="img/logo.png">
+    <link rel="icon" type="image/jpg" href="img/logo.png">   
     <title>CAt Coffee</title>
 </head>
 <body>
     <header>
         <!-- brand -->
         <a href="index.html">
-            <img src="img/logo.png" alt="logo">
+            <img src="img/logoCat.png" alt="logo">
             Cat Coffee 
             </a>
         <!--BARRA DE navegacion -->
@@ -51,7 +51,7 @@
     <main>
         
         <section id="ellos">
-            <h2> Ellos ♥ </h2>
+            <h2> Ellos ♥</h2>
             
                 <article>
                     <img src="img/siesta.jpg" alt="gato">
@@ -87,11 +87,29 @@
                 </article>
           
         </section>
-        <section id="menu">
-            <h2>Menu</h2>
-
+        <section id="menu">          
+            <h2>   🐾 Menu 🐾</h2>
+            <div  id="subMenu">
+                <h4>Bebidas</h4>
+                <p>Cafe.............................................................$500</p>
+                <p>Cafe con leche....................................$550</p>
+                <p>Submarino.............................................$600</p>
+                <p>Exprimido de naranja......................$650</p>
+                
+                <h4>Dulce</h4>
+                <p>Medialuna..............................................$100</p>
+                <p>Lemon pie.............................................$550</p>
+                <p>Waffle......................................................$600</p>
+                <p>Panqueque.........................................$650</p>
+                    
+                <h4>Salado</h4>
+                <p>Tostado........................................................$500</p>
+                <p>Avocado toast........................................$500</p>
+                <p>Scon...............................................................$200</p>
+                <p>Medialuna con jyq..............................$400</p>
+            </div>            
         </section>
-
+                
         <section id="reglas">
             <article id="titulo">
                 <img src="img/logo.png" alt="">
@@ -130,13 +148,15 @@
 
         <section id="asociate">
             <section id="formulario">
-                <form action="">
-                    <input type="text" placeholder="Nombre:">
-    
-                    <input type="email" placeholder="Email:">
-                    
-                    <textarea name="" placeholder="Consulta:"></textarea>
-    
+                <form action="" target="_blank">
+                    <label> Nombre: <input id="another" type="text" name="nombre" placeholder="ingresa tu nombre"
+                            required></label>
+                    <label> Apellido: <input id="another" type="text" name="apellido" placeholder="ingresa tu apellido"
+                            required></label>
+                    <label>Email: <input id="another" type="email" name="email" placeholder="ingresa tu email" required></label>                                          
+                    <label>Comentario
+                    <textarea cols="70" rows="10" name="comentario"  id="another" placeholder="Dejanos tu consulta"></textarea></label>
+                    <br>
                     <button>Enviar</button>
                 </form>
     
