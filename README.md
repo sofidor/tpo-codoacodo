@@ -11,7 +11,7 @@ Proyecto realizado para el curso de FullStack del programa Codo a Codo. Creamos 
 
 -en conjunto se vieron las partes claves como validacion , uso de api , los cortes responsivos y hosting. 
 # Contacto 
-d.tassarabotello@gmail.com
+sofiadorbe@gmail.com
 
 ## Descripcion del proyecto
 
